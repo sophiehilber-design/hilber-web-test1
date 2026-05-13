@@ -16,14 +16,18 @@ Lieblingsfarbe: Hellgrün</p>
     <li>Sport</li></ol>
     <h2>Meine Hobbys</h2>
 	 <ul id="liste-hobbys"></ul>
-    <script>
-  const hobbys = ["Tanzen", "Zeichnen", "Lesen", "Sophie"];  // 
+   <script>
+  const hobbys = ["tanzen", "lesen", "zeichnen", "Sophie Hilber"];  // deine eigenen Hobbys und Name eintragen
+  const liste = document.getElementById("liste-hobbys");
   hobbys.forEach(h => {
     let li = document.createElement("li");
     li.textContent = h;
     liste.appendChild(li);
   });
 </script>
+
+
+
 	<figure>
 <p><img src="img/bild1.jpg" alt="Keramikfliesen" width="400pxl" title="freies Bild"></p>
  <figcaption>
