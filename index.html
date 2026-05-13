@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <title>Test-5r</title>
 </head>
-<body style="background-color: sage green;">
+<body style="background-color:lightgreen;">
 
 <h1>Sophie Hilber-5r</h1>
   <h2>Persönliche Daten</h2>
 <p>Geburtsdatum: 05.06.2011<br>
-Lieblingsfarbe: salbeigrün</p>
+Lieblingsfarbe: Hellgrün</p>
     <h2>Meine Lieblingsfächer</h2>
     <ol><li>Englisch</li>
     <li>Zeichnen</li>
     <li>Sport</li></ol>
+    <h2>Meine Hobbys</h2>
+	 <ul id="liste-hobbys"></ul
+    <script>
+  const hobbys = ["Tanzen", "Zeichnen", "Lesen", "Sophie"];  // 
+  hobbys.forEach(h => {
+    let li = document.createElement("li");
+    li.textContent = h;
+    liste.appendChild(li);
+  });
+</script>
+
     
     
 
